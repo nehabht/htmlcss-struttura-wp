@@ -4,8 +4,76 @@
     box-sizing: border-box;
 }
 
+/* palette
+
+blue: #0086FF;
+purple: #8801FE;
+lightblue: #ABCFE7;
+yellow: #E1D67A;
+pink: #E579E6;
+
+ */
+
+body{
+    width: 1100px;
+    margin: auto;
+    padding: 16px;
+}
+
+/* header */
 
 .site_header{
     height: 200px;
-    background-color: yellow;
+    background-color:#E579E6;
+}
+
+/* main */
+
+.site_main {
+    margin: 20px 0;
+}
+
+.yellowbox {
+    height: 400px;
+    background-color:#E1D67A ;
+
+}
+.bluebox {
+    height: 600px;
+    background-color: #0086FF;
+    margin: 20px 0;
+
+}
+
+.bluerow {
+    width: 1068px;
+    height: 100px;
+    background-color: #ABCFE7;
+    float: left;
+
+
+
+}
+
+.sidebar{
+    width: 25%;
+    height: 480px;
+    float: left;
+    background-color: #ABCFE7;
+    margin: 10px 0; 
+    
+}
+
+.content{
+    width: 48%;
+    height: 480px;
+    float: left;
+    background-color: #ABCFE7;
+    margin: 10px 1%; 
+}
+
+
+.site_footer{
+    height: 50px;
+    background-color: #8801FE;
 }
