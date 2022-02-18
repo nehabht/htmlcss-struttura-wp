@@ -15,7 +15,7 @@ pink: #E579E6;
  */
 
 body{
-    width: 1100px;
+    width: 1198px;
     margin: auto;
     padding: 16px;
 }
@@ -23,7 +23,7 @@ body{
 /* header */
 
 .site_header{
-    height: 200px;
+    height: 140px;
     background-color:#E579E6;
 }
 
@@ -34,42 +34,40 @@ body{
 }
 
 .yellowbox {
-    height: 400px;
+    height: 500px;
     background-color:#E1D67A ;
 
 }
 .bluebox {
-    height: 600px;
+    height: 660px;
     background-color: #0086FF;
     margin: 20px 0;
 
 }
 
 .bluerow {
-    width: 1068px;
-    height: 100px;
+    width: 1166px;
+    height: 90px;
     background-color: #ABCFE7;
     float: left;
-
-
-
 }
 
+
 .sidebar{
-    width: 25%;
-    height: 480px;
+    width: 20%;
+    height: 530px;
     float: left;
     background-color: #ABCFE7;
-    margin: 10px 0; 
+    margin: 20px 0; 
     
 }
 
 .content{
-    width: 48%;
-    height: 480px;
+    width: 56%;
+    height: 530px;
     float: left;
     background-color: #ABCFE7;
-    margin: 10px 1%; 
+    margin: 20px 2%; 
 }
 
 
@@ -77,3 +75,10 @@ body{
     height: 50px;
     background-color: #8801FE;
 }
+
+
+/* .clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+} */
